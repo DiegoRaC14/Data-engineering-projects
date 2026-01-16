@@ -12,7 +12,7 @@ df = df.replace({np.nan: None})
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="root14",
+    password="[write_your_ouwn_password]",
     database="worldbank_health"
 )
 
@@ -44,4 +44,5 @@ conn.close()
 
 # Print information
 print("Data loaded successfully!!")
+
 
