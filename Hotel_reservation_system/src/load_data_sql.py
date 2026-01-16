@@ -4,7 +4,7 @@ import mysql.connector # Importar librería para realizar la conexión con SQL
 conexion = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="2004diegob",
+  password="[write_your_own_password]",
   database="reservacion_hoteles",
   auth_plugin='mysql_native_password'
 )
@@ -231,4 +231,5 @@ print("\n-----------------------------------------------------------------------
 # Cierra el cursor y la conexión
 cursor.close()
 conexion.close()
+
 
